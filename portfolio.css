@@ -126,7 +126,7 @@ p{
     width: 600px;
     color: white;
     line-height: normal;
-    line-height: 45px;
+    line-height: 40px;
 }
 .aboutdata h1{
     font-size: 50px;
@@ -241,8 +241,8 @@ p{
 }
 .education li{
     margin-left: 30px;
-    font-size: 30px;
-    line-height: 50px;
+    font-size:24px;
+    line-height: 40px;
 }
 .eduskill{
     display: flex;
@@ -259,16 +259,21 @@ p{
     color:white;
     border-radius: 20px;
      padding: 10px; 
-    height: 180px;
+    height: 250px;
     width: 40%;
     margin: 40px; 
     margin-top: 0;
     margin-left: 260px;
 }
 .tech_skill ul{
-    margin-left: 30px;
-    font-size: 30px;
+    margin-left: 20px;
+    font-size: 24px;
     display: inline-block;
+    margin-top: 0px;
+}
+.tech_skill h1{
+    font-size: 28px;
+    margin-left: 0;
 }
 .contact-section{
     background: radial-gradient(
