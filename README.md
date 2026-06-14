@@ -12,6 +12,5 @@ Clean and user-friendly interface
 HTML5
 CSS3
 JavaScript
-Purpose
-
+Purpose :
 This portfolio serves as a central place to showcase my work, technical skills, and projects while learning and improving my web development abilities.
