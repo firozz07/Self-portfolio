@@ -115,6 +115,14 @@ p{
     right: 100px;
     top: 150px;
 }
+@media(max-width:450px){
+    .right img{
+        width: 500px;
+        position: relative;
+        left: 15px;
+        top: 30px;
+    }
+}
 /* about soction */
 .about{
     margin: 40px;
@@ -155,6 +163,14 @@ p{
     top: 30px;
     left: 170px;
 }
+@media(max-width:450px){
+    .right2 img{
+        width: 450px;
+        position: relative;
+        left: 15px;
+        top: 0;
+    }
+}
 /* my project */
 #proj{
     font-size: 50px;
@@ -178,6 +194,7 @@ p{
     margin: 40px;
     justify-content: center;
 }
+
 
 .project-card{
     background: rgba(255,255,255,0.15);
@@ -212,6 +229,26 @@ p{
     text-decoration: none;
     color: white;
 }
+@media (max-width: 450px){
+    .myproject{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-end;
+    }
+
+    .project-card{
+        width: 800px;
+        height: 570px;
+        margin-right: 90px;
+        position: relative;
+        left: 60px; 
+       }
+       .project-card img{
+        height: 370px;
+       }
+}
+
 #educate{
      font-size: 50px;
     color: rgb(255, 255, 255);
