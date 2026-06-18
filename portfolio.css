@@ -249,6 +249,12 @@ p{
        }
 }
 
+.edu_outer{
+    display: flex;
+}
+.edu_right{
+    margin-left: 300px;
+}
 .educate{
      font-size: 50px;
     color: rgb(255, 255, 255);
@@ -263,9 +269,6 @@ p{
     margin: 40px;
     margin-top: 120px;
 }
-#firoz{
-    margin-left: 470px;
-}
 .education{
     background: rgba(255,255,255,0.15);
     backdrop-filter: blur(10px);
@@ -273,7 +276,7 @@ p{
     border-radius: 20px;
      padding: 10px; 
     height: 180px;
-    width: 30%;
+    width: 350px;
     margin: 40px; 
     margin-right: 60px;
     margin-top: 0;
@@ -301,10 +304,9 @@ p{
     border-radius: 20px;
      padding: 10px; 
     height: 250px;
-    width: 40%;
+    width: 600px;
     margin: 40px; 
     margin-top: 0;
-    margin-left: 260px;
 }
 .tech_skill ul{
     margin-left: 20px;
