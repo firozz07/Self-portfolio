@@ -70,6 +70,9 @@ p{
     font-size: 40px;
     font-weight: 900;
 }
+.headings p{
+    line-height: 40px;
+}
 #skill{
     font-weight: 800;
     margin-top: 0;
@@ -441,4 +444,55 @@ p{
     .contact-section{
         width: 450px;
     }
+}
+footer{
+    height: 50px;
+    background-color:#ff00aa3f;
+    width: 97%;
+    border-radius: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    font-size: 16px;
+}
+footer li{
+    color: white;
+    opacity: 1;
+    margin-left: 20px;
+}
+#git{
+    font-size: 30px;
+    
+}
+footer a{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    margin: 10px;
+}
+#linkedin{
+    font-size: 30px; 
+    margin-left: 20px;
+
+}
+footer h1{
+    position: relative;
+    left: 220px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+   
+}
+footer h1:hover{
+    scale: 1.4;
 }
