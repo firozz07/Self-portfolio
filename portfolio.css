@@ -37,6 +37,11 @@ body{
     z-index: 1000;
     backdrop-filter: blur(10px);
 }
+@media(max-width:450px){
+    .navbar{
+        width: 990px;
+    }
+}
 .navbar a{
     margin: 30px;
     color: white;
@@ -421,4 +426,19 @@ p{
 .form button:hover{
     background: #9C1F73;
     transition: 0.3s;
+}
+@media(max-width:450px){
+    .form{
+        margin-left: 180px;
+       width: 420px;
+       height: 650px;
+    }
+    .left-text{
+        font-size: 16px;
+        width: 400px;
+        height: 600px;
+    }
+    .contact-section{
+        width: 450px;
+    }
 }
