@@ -249,7 +249,7 @@ p{
        }
 }
 
-#educate{
+.educate{
      font-size: 50px;
     color: rgb(255, 255, 255);
     font-weight: 500;
@@ -262,6 +262,9 @@ p{
     font-family:Georgia;
     margin: 40px;
     margin-top: 120px;
+}
+#firoz{
+    margin-left: 470px;
 }
 .education{
     background: rgba(255,255,255,0.15);
@@ -280,12 +283,14 @@ p{
     font-size:24px;
     line-height: 40px;
 }
+
 .eduskill{
     display: flex;
 }
 .heads{
     display: flex;
 }
+
 .tech{
     margin:200px;
 }
@@ -306,6 +311,9 @@ p{
     font-size: 24px;
     display: inline-block;
     margin-top: 0px;
+}
+#front{
+    margin-left: 120px;
 }
 .tech_skill h1{
     font-size: 28px;
