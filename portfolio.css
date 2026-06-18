@@ -321,6 +321,12 @@ p{
     font-size: 28px;
     margin-left: 0;
 }
+@media(max-width:450px){
+    .edu_right{
+        margin-left: 30px;
+    }
+}
+
 .contact-section{
     background: radial-gradient(
         circle at 30% 40%,
