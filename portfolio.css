@@ -204,6 +204,16 @@ p{
 }
 
 
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 .project-card{
     background: rgba(255,255,255,0.15);
     backdrop-filter: blur(10px);
@@ -495,4 +505,7 @@ footer h1{
 }
 footer h1:hover{
     scale: 1.4;
+}
+.top_btn{
+    cursor: pointer;
 }
