@@ -557,7 +557,7 @@ footer h1:hover{
         margin-left: 60px;
     }
 }
-@media(max-width:330px){
+@media(max-width:380px){
     #proj{
         width: 300px;
     }
