@@ -373,8 +373,11 @@ p{
     margin-top: 40px;
 
 }
-.mail-info p{
+.mail-info a{
     font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
 }
 .form{
     width: 450px;
