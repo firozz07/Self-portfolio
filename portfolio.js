@@ -40,3 +40,7 @@ let amazon=document.querySelector(".amazon");
 amazon.addEventListener("click",()=>{
     window.open("screenshot (44).png")
 });
+
+window.addEventListener("load", () => {
+    document.querySelector(".html").style.width = "90%";
+});
