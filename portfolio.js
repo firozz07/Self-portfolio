@@ -36,7 +36,7 @@ portfolio.addEventListener("click",()=>{
     window.open("Screenshot (42).png")
 });
 
-let amazon=document.querySelector(".amazon");
-amazon.addEventListener("click",()=>{
-    window.open("Screenshot (44).png")
+let cat=document.querySelector(".cat");
+cat.addEventListener("click",()=>{
+    window.open("image.png")
 });
