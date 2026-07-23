@@ -549,7 +549,7 @@ footer h1:hover{
     }
 
     footer h1{
-        position: static; /* removes left:220px */
+        position: static; 
         margin-top: 10px;
         font-size: 18px;
     }
