@@ -288,7 +288,7 @@ p{
     margin-top: 120px;
 }
 .education{
-    background: rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.25);
     backdrop-filter: blur(10px);
     color:white;
     border-radius: 20px;
@@ -313,6 +313,40 @@ p{
 
 .tech{
     margin:200px;
+}
+
+.education li{
+    color: #590d22;
+    font-weight: 800;
+}
+.anotherskill{
+     background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+    color:white;
+    border-radius: 20px;
+     padding: 10px; 
+    height: 200px;
+    width: 470px;
+    margin: 40px; 
+    margin-right: 10px; 
+    margin-top: 125px;
+
+}
+.anotherskill label{
+    color: #590d22;
+    font-weight: 800;
+}
+.tech_skill label{
+    color: #590d22;
+    font-weight: 800;
+}
+.anotherskill li{
+    margin-left: 15px;
+    font-size:24px;
+    line-height: 40px;
+}
+.color{
+    color: #C2E812;
 }
 .tech_skill{
     background: rgba(255,255,255,0.25);
